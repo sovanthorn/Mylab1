@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop</title>
+    <link rel="stylesheet" href="/page/style.css">
+    <link rel="icon" href="/page/img/img7.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+    main {
+        height: 100vh;
+        margin: 0px;
+        background-color: white;
+       
+    }   
+   
+    .login-container {
+      width: 50%;
+      margin: 0px;
+      padding: 50px;
+      background-color: #94caf7;
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      
+    }
+    
+    .longin-container h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 50px;
+    }
+    
+    .login-container label {
+      display: block;  
+      line-height: 20px;
+    }
+    
+    .login-container input[type="text"],
+    .login-container input[type="password"],
+    .login-container input[type="gmail"] {
+      
+      width: 100%;
+      height: 40px;
+      padding: 7px;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+
+    .login-container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: rgb(106, 249, 171);
+      color:black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      margin-top: 15px;  
+      text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navigation Bar -->
+        <nav>
+        <!-- Logo -->
+        <img class="logo" src="img/img4.png" alt="logo">
+            <ul>
+                <li><a href="/page/index.html">Home</a></li>
+                <li><a href="/page/Aboutus.html">About Us</a></li>
+                <li><a href="/page/ContactUs.html">Contact Us</a></li>
+                <li><a href="/page/Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- login Section -->
+        <section class="login-container">
+                <h1>Log in</h1>
+                    <form>
+                    <label for="username">Username :</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                    
+                    <label for="gmail">Gmail :</label>
+                    <input type="gmail" id="gmail" name="gmail" placeholder="Enter your G-mail" required>
+                    
+                    <label for="password">Password :</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    
+                   <input type="submit">
+                    </form>
+        </section>
+    </main>
+</body>
+</html>
